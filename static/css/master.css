@@ -1,0 +1,115 @@
+
+/*
+Color palette:
+
+night: #151515
+redwood: #a63d40
+earth yellow: #e9b872
+asparagus: #90a959
+air force blue: #6494aa
+olive: #424d29;
+ */
+
+.quicksand quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    background-color: #e9b872;
+    color: #424d29;
+    margin: 0;
+    padding-top: 110px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.top-menu {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #90a959;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu-border {
+    background-color: #6494aa;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+    top: 100px;
+    left: 0;
+    z-index: 999;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+}
+
+p, a {
+    position: relative;
+    font-family: "Quicksand", Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0;
+    color: #424d29;
+    text-decoration: none;
+}
+
+p.owner {
+    font-size: 50px;
+    line-height: 2;
+}
+p.contact {
+    padding-right: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+    align-items: baseline;
+}
+
+.container {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    padding: 0 100px;
+    max-width: 500px;
+    justify-content: center;
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.3));
+}
+
+.photo-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 600px;
+    background-color: #a63d40;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.3));
+}
+
+
+
+
